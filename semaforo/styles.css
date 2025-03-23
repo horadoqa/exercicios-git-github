@@ -34,12 +34,12 @@ body {
 
 .vermelho {
     background-color: red;
-    /* background-color: #555; */
+    background-color: #555;
 }
 
 .amarelo {
     background-color: yellow;
-    background-color: #555;
+    /* background-color: #555; */
 }
 
 .verde {
