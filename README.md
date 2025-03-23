@@ -1,4 +1,4 @@
-# [![Exercícios Git & Github](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=Exerc%C3%ADcios+Git+&+Github)](https://git.io/typing-svg)
+# [![Exercícios Git e Github](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=Exerc%C3%ADcios+Git+e+Github)](https://git.io/typing-svg)
 
 Este repositório contém uma série de **exercícios práticos** para aprender e aprimorar habilidades com **Git** e **GitHub**. Os exercícios abordam diversos conceitos e comandos importantes, desde operações básicas de versionamento até práticas avançadas, com o objetivo de fornecer uma compreensão sólida de como usar o Git e o GitHub de forma eficaz no desenvolvimento de software.
 
@@ -18,4 +18,4 @@ Os exercícios são organizados em pastas, com desafios para resolver passo a pa
 
 ---
 
-Resultado: https://horadoqa.github.io/exercicios-git/
+Resultado: https://horadoqa.github.io/exercicios-git-github/
