@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #2c3e50;
+}
+
+.semaforo {
+    width: 100px;
+    height: 250px;
+    background-color: #333;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.luz {
+    width: 80px;
+    height: 80px;
+    margin-top: 5px;
+    border-radius: 50%;
+    background-color: #555;
+    transition: background-color 1s ease;
+}
+
+.vermelho {
+    background-color: red;
+    /* background-color: #555; */
+}
+
+.amarelo {
+    background-color: yellow;
+    background-color: #555;
+}
+
+.verde {
+    background-color: green;
+    background-color: #555;
+}
