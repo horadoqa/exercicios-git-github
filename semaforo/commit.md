@@ -1,5 +1,13 @@
 # Trabalhando com COMMITS
 
+Neste exemplo `VISUAL`, você poderá entender como funciona a transição entre commits.
+
+Acessar a Branch: `semaforo` 
+
+```bash
+git checkout semaforo
+```
+
 ## Listando os Commits
 
 ```bash
@@ -9,23 +17,26 @@ git log
 Resultado:
 
 ```bash
-commit 156fe0e32315db5faf6bcbc6e9fcb9ad58b0a96e (HEAD -> semaforo, origin/semaforo)
+commit 6687ac04a2d99adc2705c1ed6bdb00d6a6e989a3 (HEAD -> semaforo, origin/semaforo)
 Author: Ricardo Fahham <rfahham@hotmail.com>
-Date:   Sun Mar 23 08:09:40 2025 -0300
+Date:   Sun Mar 23 10:39:23 2025 -0300
 
-    Mudando de cor - GREEN
+    GREEN
 
-commit 581f718a29149ca5d056b3fd860324da85862161
+commit 9042133181ace84fd8f861864499d4778b4594c4
 Author: Ricardo Fahham <rfahham@hotmail.com>
-Date:   Sun Mar 23 08:08:00 2025 -0300
+Date:   Sun Mar 23 10:37:29 2025 -0300
 
-    Mudando de cor - YELLOW
+    YELLOW
 
-commit a1a32efac0c76ad8ff6b9a6f4245511bdd242abe
-Author: Ricardo Fahham <rfahham@hotmail.com>
-Date:   Sun Mar 23 08:05:25 2025 -0300
+commit 61642bd67cbd6b225387c93f40d48162d9995c09
+Merge: 7b0fc5a fc76b0f
+Author: Hora do QA <horadoqa@gmail.com>
+Date:   Sun Mar 23 10:20:56 2025 -0300
 
-    criando semáforo - RED
+    Merge pull request #1 from horadoqa/semaforo
+    
+    Adicionando projeto semaforo
 ```
 
 ou
@@ -33,9 +44,9 @@ ou
 ```bash
 git log --oneline
 
-156fe0e - GREEN
-581f718 - YELLOW
-a1a32ef - RED
+fc76b0f - RED
+9042133 - YELLOW
+6687ac0 - GREEN
 ```
 
 ## Acessando/Alternando código de um Commit
@@ -43,8 +54,9 @@ a1a32ef - RED
 Com o hash do commit em mãos (exemplo: a1a32ef), você pode alternar para esse commit usando:
 
 ```bash
-git checkout a1a32ef
-git checkout 581f718
+git checkout fc76b0f
+git checkout 9042133
+git checkout 6687ac0
 ```
 
 ## Alternar de Volta para a Última Branch
