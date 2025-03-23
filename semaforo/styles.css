@@ -39,10 +39,10 @@ body {
 
 .amarelo {
     background-color: yellow;
-    /* background-color: #555; */
+    background-color: #555;
 }
 
 .verde {
     background-color: green;
-    background-color: #555;
+    /* background-color: #555; */
 }
