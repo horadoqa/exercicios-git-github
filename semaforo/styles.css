@@ -34,7 +34,7 @@ body {
 
 .vermelho {
     background-color: red;
-    background-color: #555;
+    /* background-color: #555; */
 }
 
 .amarelo {
@@ -44,5 +44,5 @@ body {
 
 .verde {
     background-color: green;
-    /* background-color: #555; */
+    background-color: #555;
 }
