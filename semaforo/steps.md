@@ -54,9 +54,10 @@ fc76b0f - RED
 Com o hash do commit em mãos (exemplo: a1a32ef), você pode alternar para esse commit usando:
 
 ```bash
-git checkout fc76b0f
-git checkout 9042133
-git checkout 6687ac0
+git checkout d57ef47 OUT
+git checkout f88566a RED
+git checkout 62a4be3 GREEN
+git checkout bb9bf78 YELLOW
 ```
 
 ## Alternar de Volta para a Última Branch
